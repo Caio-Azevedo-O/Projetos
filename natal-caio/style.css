@@ -1,0 +1,31 @@
+a:link{
+    color: #E6DCB1;
+}
+a:visited{
+    color: #CEAC5C;
+}
+body{
+    background-image: url(https://images.pixexid.com/a-desktop-wallpaper-of-a-mountain-lodge-fireplace-1o9zpz3u.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3d251e
+}
+.footer-loja{
+    bottom: 0;
+    background-color: #31511E;
+    height: 200px;
+}
+#sidemenu{
+    background-color: #003161;
+}
+#carousel{
+    color: aliceblue;
+}
+@media screen and (max-width: 990px) {
+    *{
+        font-size: small;
+    }
+    footer{
+        visibility: hidden;
+    }
+}
